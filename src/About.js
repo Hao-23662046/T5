@@ -10,7 +10,7 @@ const About = () => {
       <div className="card mb-4 shadow-sm">
         <div className="card-body">
           <p>
-            Chào mừng bạn đến với <strong>Cửa hàng Store H</strong> – nơi cung
+            Chào mừng bạn đến với <strong>Cửa hàng CH Tech</strong> – nơi cung
             cấp sản phẩm, phụ kiện và tài nguyên học tập tiện lợi cho mọi đối
             tượng.
           </p>
