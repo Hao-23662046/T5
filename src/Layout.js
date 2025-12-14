@@ -43,7 +43,7 @@ const Layout = () => {
         <nav className="header-nav">
           <Link to="/">Trang chủ</Link>
           <Link to="/sanpham">Sản Phẩm</Link>
-          <Link to="/trang1">Phụ Kiện</Link>
+          <Link to="/accessory">Phụ Kiện</Link>
           {user?.role === "admin" && (
             <>
               <Link to="/admin/products">Quản trị sản phẩm</Link>
@@ -51,7 +51,7 @@ const Layout = () => {
             </>
           )}
 
-          <Link to="/trang2">Liên Hệ</Link>
+          <Link to="/contact">Liên Hệ</Link>
           <Link to="/About">Giới Thiệu</Link>
 
           {/* --- GIỎ HÀNG --- */}

@@ -5,11 +5,11 @@ import Home from "./Home";
 // @ts-ignore
 import Layout from "./Layout";
 // @ts-ignore
-import Trang1 from "./Trang1";
+import Accessory from "./Accessory";
 // @ts-ignore
 import Chitietsanpham from "./Chitietsanpham";
 // @ts-ignore
-import Trang2 from "./Trang2";
+import Contact from "./Contact";
 // @ts-ignore
 import ListProducts from "./ListProducts";
 // @ts-ignore
@@ -45,8 +45,8 @@ const App = () => {
             {/* Trang chính (cho người dùng vãng lai) */}
             <Route index element={<Home />} />
             <Route path="sanpham" element={<ListProducts_SP />} />
-            <Route path="trang1" element={<Trang1 />} />
-            <Route path="trang2" element={<Trang2 />} />
+            <Route path="accessory" element={<Accessory />} />
+            <Route path="contact" element={<Contact />} />
             <Route path="sanpham/:id" element={<Chitietsanpham />} />
             <Route path="detail/:id" element={<ProductDetail />} />
             <Route path="cart" element={<CartPage />} />

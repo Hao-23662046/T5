@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { supabase } from "./supabaseClient";
 import { useCart } from "./CartContext";
 
-const Trang1 = () => {
+const Accessory = () => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -91,4 +91,4 @@ const Trang1 = () => {
   );
 };
 
-export default Trang1;
+export default Accessory;
